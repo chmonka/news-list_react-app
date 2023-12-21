@@ -1,0 +1,29 @@
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.bunnerNew > .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.bunner{
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerWrap{
+    width: 100%;
+}
+
+.descNews{
+    font-size: 14px;
+}
+
+.titleNews{
+    font-size: 18px;
+}

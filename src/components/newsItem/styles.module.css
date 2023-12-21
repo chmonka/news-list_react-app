@@ -1,0 +1,25 @@
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+.titleNews{
+    font-size: 14px;
+}
+
+.titleNews{
+    font-size: 12px;
+}
+
+.imgNew{
+
+    width: 64px;
+    height: 64px;
+    background-color: #2f4f5f;
+    background-position: center;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+
