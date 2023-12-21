@@ -19,6 +19,7 @@ const Main = () => {
     }
     fetchNews()
   }, [])
+  
   return (
     <main className='main'>
       <div className={styles.container}>

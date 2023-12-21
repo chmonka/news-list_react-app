@@ -4,26 +4,24 @@
     width: 100%;
 }
 
-.bunnerNew > .container{
+.newsBunner > .container{
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    flex-direction: column;
+    margin: 20px 0px;
 }
 
-.bunner{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .bannerWrap{
     width: 100%;
 }
 
-.descNews{
-    font-size: 14px;
+.titleNewsBunner{
+    font-size: 20px;
 }
 
-.titleNews{
+.descNewsBunner{
     font-size: 18px;
 }

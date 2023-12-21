@@ -1,11 +1,7 @@
 import axios from 'axios'
 
-
-
 const BASE_URL = process.env.REACT_APP_NEWS_BASE_API_URL
 const API_KEY = process.env.REACT_APP_NEWS_API_KEY
-
-
 
 const getNews = async () => {
     try {

@@ -5,12 +5,12 @@ import formatTimeAgo from '../helpers/formatTimeAgo'
 
 const NewsBunner = ({ item }) => {
     return (
-        <div className={styles.bunnerNew}>
+        <div className={styles.newsBunner}>
             <div className={styles.container}>
-                <div className={styles.bunner}>
+                <div className={styles.articleBunner}>
                     <Image image={item?.image}></Image>
-                    <h3 className={styles.titleNews}>{item.title}</h3>
-                    <p className={styles.descNews}>{formatTimeAgo(item.published)} by {item.author}</p>
+                    <h3 className={styles.titleNewsBunner}>{item.title}</h3>
+                    <p className={styles.descNewsBunner}>{formatTimeAgo(item.published)} by {item.author}</p>
                 </div>
             </div>
         </div>

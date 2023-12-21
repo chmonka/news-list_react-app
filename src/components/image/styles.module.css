@@ -1,12 +1,16 @@
 .wrapper{
+    height: 100%;
+    width: 100%;
     display: flex;
-    background-color: #f2f4f5;
+    background-color: #2f4f5f;
+    border-radius:20px ;
 }
 
 .imgNews{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    border-radius:20px;
 }
 
 
